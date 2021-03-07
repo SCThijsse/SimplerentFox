@@ -1,32 +1,32 @@
-/* 
-  ___ _            _                 _   
- / __(_)_ __  _ __| |___ _ _ ___ _ _| |_ 
+/*
+  ___ _            _                 _
+ / __(_)_ __  _ __| |___ _ _ ___ _ _| |_
  \__ \ | '  \| '_ \ / -_) '_/ -_) ' \  _|
  |___/_|_|_|_| .__/_\___|_| \___|_||_\__|
- | __|____ __|_|                         
- | _/ _ \ \ /                            
- |_|\___/_\_\                            
-                                         
+ | __|____ __|_|
+ | _/ _ \ \ /
+ |_|\___/_\_\
+
  With URL Bar Version
 
 */
 
-/* 
+/*
 
-V A R I A B L E S 
+V A R I A B L E S
 
 Here you can change the opacity level and the main color of the browser. Also the color of the selections (When you select text)
 
 */
 
 :root {
-    --srf-color-primary: rgba(20, 20, 20, 0.6);
-    --srf-color-selection: #66A6D9;
-    --srf-color-urlbar: rgba(20, 20, 20, 0.8);
+    --srf-color-primary: #0e1d26;
+    --srf-color-selection: #ac414b;
+    --srf-color-urlbar: #0e1d26;
 }
 
-/* 
-G E N E R A L 
+/*
+G E N E R A L
 */
 
 window,
@@ -48,8 +48,8 @@ window,
     color: #141414;
 }
 
-/* 
-T A B S 
+/*
+T A B S
 */
 
 :root {
@@ -78,13 +78,13 @@ T A B S
     border: none !important;
 }
 
-.tab-line {
-  display: none !important;
-}
+/* .tab-line { */
+/*   display: none !important; */
+/* } */
 
-/* 
+/*
 
-B U T T O N S 
+B U T T O N S
 
 Here you can comment if you want your buttons to be showed up!
 
@@ -121,9 +121,9 @@ Here you can comment if you want your buttons to be showed up!
 }
 
 /* This one clears the tabs icon when they're not pinned  */
-.tabbrowser-tab:not([pinned]) .tab-icon-image {
-    display: none !important;
-}
+/* .tabbrowser-tab:not([pinned]) .tab-icon-image { */
+/*     display: none !important; */
+/* } */
 
 /* Removing the zoom button  */
 #urlbar-zoom-button {
@@ -135,7 +135,7 @@ Here you can comment if you want your buttons to be showed up!
     display: none !important;
 }
 
-/* 
+/*
 N A V B A R
 */
 
@@ -153,7 +153,7 @@ N A V B A R
     border-bottom-width: 0px !important;
 }
 
-/* 
+/*
 S I D E - B A R
 */
 
@@ -199,7 +199,7 @@ S I D E - B A R
     background-color: var(--srf-color-primary) !important;
 }
 
-/* 
+/*
 U R L - B A R
 */
 
@@ -258,6 +258,6 @@ U R L - B A R
     display: none !important;
 }
 
-/* 
+/*
 Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
 */
