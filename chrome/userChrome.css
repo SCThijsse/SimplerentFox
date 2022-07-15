@@ -1,9 +1,9 @@
-/* 
+/*
 ┌─┐┬┌┬┐┌─┐┬  ┌─┐
-└─┐││││├─┘│  ├┤ 
+└─┐││││├─┘│  ├┤
 └─┘┴┴ ┴┴  ┴─┘└─┘
-┌─┐┌─┐─┐ ┬      
-├┤ │ │┌┴┬┘      
+┌─┐┌─┐─┐ ┬
+├┤ │ │┌┴┬┘
 └  └─┘┴ └─
 
 by Miguel Avila
@@ -11,7 +11,7 @@ by Miguel Avila
 */
 
 /*
- 
+
 ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
 │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
@@ -19,8 +19,8 @@ by Miguel Avila
 */
 
 :root {
-  --sfwindow: #19171a;
-  --sfsecondary: #201e21;
+  --sfwindow: #24273a;
+  --sfsecondary: #1e2030;
 }
 
 /* Urlbar View */
@@ -36,10 +36,10 @@ by Miguel Avila
 
 /*─────────────────────────────*/
 
-/* 
+/*
 ┌─┐┌─┐┬  ┌─┐┬─┐┌─┐
 │  │ ││  │ │├┬┘└─┐
-└─┘└─┘┴─┘└─┘┴└─└─┘ 
+└─┘└─┘┴─┘└─┘┴└─└─┘
 */
 
 /* Tabs colors  */
@@ -76,11 +76,11 @@ by Miguel Avila
   background-color: var(--sfwindow) !important;
 }
 
-/* 
+/*
 
-┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐            
- ││├┤ │  ├┤  │ ├┤             
-─┴┘└─┘┴─┘└─┘ ┴ └─┘            
+┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐
+ ││├┤ │  ├┤  │ ├┤
+─┴┘└─┘┴─┘└─┘ ┴ └─┘
 ┌─┐┌─┐┌┬┐┌─┐┌─┐┌┐┌┌─┐┌┐┌┌┬┐┌─┐
 │  │ ││││├─┘│ ││││├┤ │││ │ └─┐
 └─┘└─┘┴ ┴┴  └─┘┘└┘└─┘┘└┘ ┴ └─┘
@@ -176,21 +176,21 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 /* Disable elements  */
-#context-navigation,
+/* #context-navigation, */
 #context-savepage,
 #context-pocket,
 #context-sendpagetodevice,
 #context-selectall,
-#context-viewsource,
+/* #context-viewsource, */
 #context-inspect-a11y,
 #context-sendlinktodevice,
 #context-openlinkinusercontext-menu,
 #context-bookmarklink,
-#context-savelink,
+/* #context-savelink, */
 #context-savelinktopocket,
 #context-sendlinktodevice,
-#context-searchselect,
-#context-sendimage,
+/* #context-searchselect, */
+/* #context-sendimage, */
 #context-print-selection {
   display: none !important;
 }
